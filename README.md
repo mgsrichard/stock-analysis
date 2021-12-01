@@ -25,7 +25,7 @@ The refactored code runs in approximately 0.1 seconds for either year's data. Th
 #### 2017 Code run time - Original code
 ![2017 original time](https://github.com/mgsrichard/stock-analysis/blob/main/2017%20original%20time.png)
 #### 2018 Code run time - Original code
-![2018 original time](https://github.com/mgsrichard/stock-analysis/blob/main/2018%20original%20time.png)
+![2018 original time](https://github.com/mgsrichard/stock-analysis/blob/main/2018%20Original%20time%20new%20image.png)
 
 
 The refactored code runs more quickly than the original code because un-nesting the for loops is so much more efficient. Instead of looping through all 3000+ lines of data for each of 12 tickers, the loop only goes through the data one time for a big savings in run time. Below are screenshots of the loops before and after refactoring. In the original code you can see how the for loops are nested.
